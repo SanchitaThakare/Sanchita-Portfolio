@@ -4,12 +4,11 @@ import  "./../assets/css/styles.css";
 import "./../assets/css/themestyles.css";
 import "./../assets/css/styles.css.map"
 import downloadpdffile  from "./../assets/document/sanchita_resume.pdf";
-import sanchitaimg from './../assets/images/sanchita.jpg';
-
+import port1 from './../assets/images/port1.jpg';
+import port2 from './../assets/images/port2.jpg';
+import port3 from './../assets/images/port3.jpg';
 import Sidebar from './Sidebar';
 // import {theme  } from "./components/theme";
-
-
 
 
 function Projects() {
@@ -51,119 +50,46 @@ function Projects() {
             <div class="portfolios">
                 <div class="portfolio-item">
                     <div class="image">
-                        <img src="img/port1.jpg" alt=""/>
+                        <img src={port1} alt=""/>
                     </div>
                     <div class="hover-items">
-                        <h3>Project Source</h3>
+                        <h3> Mutual Fund Calculator</h3>
+                        
                         <div class="icons">
-                            <a href="#" class="icon">
+                            <a href="https://github.com/SanchitaThakare/Liquid-MF-Calculator.git" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
+                           
                         </div>
                     </div>
                 </div>
                 <div class="portfolio-item">
                     <div class="image">
-                        <img src="img/port2.jpg" alt=""/>
+                        <img src={port2} alt=""/>
                     </div>
                     <div class="hover-items">
-                        <h3>Project Source</h3>
+                        <h3>Sanchita Portfolio</h3>
                         <div class="icons">
-                            <a href="#" class="icon">
+                            <a href="https://github.com/SanchitaThakare/Sanchita-Portfolio.git" class="icon">
                                 <i class="fab fa-github"></i>
                             </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
+                          
                         </div>
                     </div>
                 </div>
                 <div class="portfolio-item">
                     <div class="image">
-                        <img src="img/port3.jpg" alt=""/>
+                        <img src={port3} alt=""/>
                     </div>
                     <div class="hover-items">
-                        <h3>Project Source</h3>
+                        <h3>Redux Demo</h3>
                         <div class="icons">
-                            <a href="#" class="icon">
+                            <a href="https://github.com/SanchitaThakare/Redux-Demo.git" class="icon">
                                 <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
                             </a>
                         </div>
                     </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port4.jpg" alt=""/>
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port5.jpg" alt=""/>
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port2.jpg" alt=""/>
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
+                </div>                
             </div>
         </section>
     </main>

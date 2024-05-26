@@ -53,7 +53,7 @@ function Education() {
                 <p class="tl-duration">2020 - 2022</p>
                 <h5>M.Sc (Computer Science)<span> - Mumbai Univercity</span></h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                  K.M.C. College Khopoli.
                 </p>
               </div>
               <div class="col-12 timeline-item">
