@@ -3,7 +3,7 @@ import  "./../assets/css/media.css";
 import  "./../assets/css/styles.css";
 import "./../assets/css/themestyles.css";
 import "./../assets/css/styles.css.map"
-import downloadpdffile  from "./../assets/document/sanchita_resume.pdf";
+import downloadpdffile from "./../assets/document/Sanchita Thakare Resume.pdf";
 import sanchitaimg from './../assets/images/sanchita.jpg';
 
 import Sidebar from './Sidebar';
