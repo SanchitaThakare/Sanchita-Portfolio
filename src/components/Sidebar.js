@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from "react-router-dom";
 import  "./../assets/css/media.css";
 import './../assets/css/styles.css';
 import "./../assets/css/themestyles.css";
@@ -21,6 +22,7 @@ function Sidebar() {
     
 
   return (
+    
 <React.Fragment>
     <div className={`main-content ${lightMode ? 'light-mode' : ''}`}>
     <div className="controls">
@@ -29,35 +31,35 @@ function Sidebar() {
           data-id="home"
           onClick={() => handleButtonClick('home')}
         >
-         <a href='/' ><i className="fas fa-home"></i></a>
+         <NavLink to='/' ><i className="fas fa-home"></i></NavLink>
         </div>
         <div
           className={`control ${activeSection === 'about' ? 'active-btn' : ''}`}
           data-id="about"
           onClick={() => handleButtonClick('about')}
         >
-        <a href='/about'> <i className="fas fa-user"></i></a> 
+        <NavLink to='/about'> <i className="fas fa-user"></i></NavLink>
         </div>
         <div
           className={`control ${activeSection === 'portfolio' ? 'active-btn' : ''}`}
           data-id="portfolio"
           onClick={() => handleButtonClick('portfolio')}
         >
-          <a href='/projects'><i className="fas fa-briefcase"></i></a>
+          <NavLink to='/projects'><i className="fas fa-briefcase"></i></NavLink>
         </div>
         <div
           className={`control ${activeSection === 'blogs' ? 'active-btn' : ''}`}
           data-id="blogs"
           onClick={() => handleButtonClick('blogs')}
         >
-         <a href='/education'><i className="fas fa-user-graduate"></i></a>
+        <NavLink to='/education'><i className="fas fa-user-graduate"></i></NavLink>
         </div>
         <div
           className={`control ${activeSection === 'contact' ? 'active-btn' : ''}`}
           data-id="contact"
           onClick={() => handleButtonClick('contact')}
         >
-          <a href='/contact'><i className="fas fa-envelope-open"></i></a>
+          <NavLink to='/contact'><i className="fas fa-envelope-open"></i></NavLink>
         </div>
       </div>
       <div className="theme-btn" onClick={handleThemeButtonClick}>

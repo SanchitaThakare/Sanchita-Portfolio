@@ -47,30 +47,36 @@ function About() {
                         </div>
                         <div class="about-container">
                             <div class="left-about">
-                                <h4>Information About Me</h4>
+                                <h4>Professional Summary</h4>
                                 <p>
-                                    Hello! I'm a passionate React JS developer with over 2+ years of experience in creating web applications.
-                                    I thrive on turning ideas into interactive and responsive user interfaces.
-                                    My expertise lies in front-end development using modern web technologies.
-
+                                    Frontend Developer with <b>3.8+ years</b> of experience specializing
+                                    in <b>React.js, Next.js, Redux,JavaScript and TypeScript</b>.
+                                    <br /><br />
+                                    Experienced in building enterprise-grade web and mobile applications
+                                    for <b>BFSI, Banking, and Healthcare</b> domains with a strong focus on
+                                    performance optimization, reusable components, and secure REST API integration.
+                                    <br /><br />
+                                    <b>Immediate Joiner | Mumbai / Thane / Remote</b>
                                 </p>
-                                <div class="btn-con">
-                                    <a href={downloadpdffile} class="main-btn">
-                                        <span class="btn-text">Download CV</span>
-                                        <span class="btn-icon" onClick={downloadPDF}><i class="fas fa-download"></i></span>
+                                <div className="btn-con">
+                                    <a href={downloadpdffile} className="main-btn" download>
+                                        <span className="btn-text">Download Resume</span>
+                                        <span className="btn-icon">
+                                            <i className="fas fa-download"></i>
+                                        </span>
                                     </a>
                                 </div>
                             </div>
                             <div class="right-about">
                                 <div class="about-item">
                                     <div class="abt-text">
-                                        <p class="large-text">5+</p>
+                                        <p class="large-text">8+</p>
                                         <p class="small-text">Projects <br /> Completed</p>
                                     </div>
                                 </div>
                                 <div class="about-item">
                                     <div class="abt-text">
-                                        <p class="large-text">2.5+</p>
+                                        <p class="large-text">3.8+</p>
                                         <p class="small-text">Years of <br /> experience</p>
                                     </div>
                                 </div>
@@ -230,6 +236,22 @@ function About() {
                         </div>
                         <h4 class="stat-title">My Timeline</h4>
                         <div class="timeline">
+                            <div className="timeline-item">
+                                <div class="tl-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <p className="tl-duration">Sep 2024 – Dec 2025</p>
+                                <h5>Frontend Developer <span>-Neural IT Pvt Ltd</span></h5>
+                                <p>Enterprise React & Next.js banking applications.</p>
+                            </div>
+                            <div className="timeline-item">
+                                <div class="tl-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                                <p className="tl-duration">Dec 2023 – Sep 2024</p>
+                                <h5>React JS UI Developer <span>-End Point IT Services</span></h5>
+                                <p>BFSI & HRMS web and mobile applications.</p>
+                            </div>
                             <div class="timeline-item">
                                 <div class="tl-icon">
                                     <i class="fas fa-briefcase"></i>
