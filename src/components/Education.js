@@ -86,10 +86,9 @@ function Education() {
                 <p class="tl-duration">2011 - 2012</p>
                 <h5>S.S.C<span> - Maharashtra State Board </span></h5>
                 <p>
-                  Neral Vidys Mandir Neral</p><br/><br/>
+                  Neral Vidya Mandir Neral</p><br/><br/>
               </div>
             </div>
-
           </section>
         </main>
         <Sidebar />
