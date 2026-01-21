@@ -97,8 +97,6 @@ function Education() {
         </div>
       </div>
     </React.Fragment>
-
-
   )
 }
 
