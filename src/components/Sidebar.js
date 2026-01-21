@@ -8,9 +8,13 @@ function Sidebar() {
   const [lightMode, setLightMode] = useState(false);
 
   const handleThemeButtonClick = () => {
-    setLightMode(!lightMode);
+  setLightMode(!lightMode);
+
+  if (typeof document !== "undefined") {
     document.body.classList.toggle("light-mode");
-  };
+  }
+};
+
 
   return (
     <div className={`main-content ${lightMode ? "light-mode" : ""}`}>
