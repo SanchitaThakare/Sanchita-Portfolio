@@ -40,52 +40,50 @@ function Projects() {
   <React.Fragment>
      <div className={`main-content ${lightMode ? 'light-mode' : ''}`}>
     <main>
-    <section class="container active" id="portfolio">
-            <div class="main-title">
-                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+    <section className="container active" id="portfolio">
+            <div className="main-title">
+                <h2>My <span>Portfolio</span><span className="bg-text">My Work</span></h2>
             </div>
-            <p class="port-text">
+            <p className="port-text">
                 Here is some of my work that I've done in various programming languages.
             </p>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
+            <div className="portfolios">
+                <div className="portfolio-item">
+                    <div className="image">
                         <img src={port1} alt=""/>
                     </div>
-                    <div class="hover-items">
+                    <div className="hover-items">
                         <h3> Mutual Fund Calculator</h3>
-                        
-                        <div class="icons">
-                            <a href="https://github.com/SanchitaThakare/Liquid-MF-Calculator.git" class="icon">
-                                <i class="fab fa-github"></i>
+                        <div className="icons">
+                            <a href="https://github.com/SanchitaThakare/Liquid-MF-Calculator.git" className="icon">
+                                <i className="fab fa-github"></i>
                             </a>
                            
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="image">
+                <div className="portfolio-item">
+                    <div className="image">
                         <img src={port2} alt=""/>
                     </div>
-                    <div class="hover-items">
+                    <div className="hover-items">
                         <h3>Sanchita Portfolio</h3>
-                        <div class="icons">
-                            <a href="https://github.com/SanchitaThakare/Sanchita-Portfolio.git" class="icon">
-                                <i class="fab fa-github"></i>
+                        <div className="icons">
+                            <a href="https://github.com/SanchitaThakare/Sanchita-Portfolio.git" className="icon">
+                                <i className="fab fa-github"></i>
                             </a>
-                          
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="image">
+                <div className="portfolio-item">
+                    <div className="image">
                         <img src={port3} alt=""/>
                     </div>
-                    <div class="hover-items">
+                    <div className="hover-items">
                         <h3>Redux Demo</h3>
-                        <div class="icons">
-                            <a href="https://github.com/SanchitaThakare/Redux-Demo.git" class="icon">
-                                <i class="fab fa-github"></i>
+                        <div className="icons">
+                            <a href="https://github.com/SanchitaThakare/Redux-Demo.git" className="icon">
+                                <i className="fab fa-github"></i>
                             </a>
                         </div>
                     </div>

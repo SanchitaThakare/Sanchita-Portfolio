@@ -41,12 +41,12 @@ function About() {
         <React.Fragment>
             <div className={`main-content ${lightMode ? 'light-mode' : ''}`}>
                 <main>
-                    <section class="container about active" id="about">
-                        <div class="main-title">
-                            <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+                    <section className="container about active" id="about">
+                        <div className="main-title">
+                            <h2>About <span>me</span><span className="bg-text">my stats</span></h2>
                         </div>
-                        <div class="about-container">
-                            <div class="left-about">
+                        <div className="about-container">
+                            <div className="left-about">
                                 <h4>Professional Summary</h4>
                                 <p>
                                     Frontend Developer with <b>3.8+ years</b> of experience specializing
@@ -67,207 +67,207 @@ function About() {
                                     </a>
                                 </div>
                             </div>
-                            <div class="right-about">
-                                <div class="about-item">
-                                    <div class="abt-text">
-                                        <p class="large-text">8+</p>
-                                        <p class="small-text">Projects <br /> Completed</p>
+                            <div className="right-about">
+                                <div className="about-item">
+                                    <div className="abt-text">
+                                        <p className="large-text">8+</p>
+                                        <p className="small-text">Projects <br /> Completed</p>
                                     </div>
                                 </div>
-                                <div class="about-item">
-                                    <div class="abt-text">
-                                        <p class="large-text">3.8+</p>
-                                        <p class="small-text">Years of <br /> experience</p>
+                                <div className="about-item">
+                                    <div className="abt-text">
+                                        <p className="large-text">3.8+</p>
+                                        <p className="small-text">Years of <br /> experience</p>
                                     </div>
                                 </div>
-                                <div class="about-item">
-                                    <div class="abt-text">
-                                        <p class="large-text">3+</p>
-                                        <p class="small-text">Happy <br /> Clients</p>
+                                <div className="about-item">
+                                    <div className="abt-text">
+                                        <p className="large-text">3+</p>
+                                        <p className="small-text">Happy <br /> Clients</p>
                                     </div>
                                 </div>
-                                <div class="about-item">
-                                    <div class="abt-text">
-                                        <p class="large-text">3+</p>
-                                        <p class="small-text">Individual <br /> Projects</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="about-stats">
-                            <h4 class="stat-title">My Skills</h4>
-                            <div class="progress-bars">
-                                <div class="progress-bar">
-                                    <p class="prog-title">html</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">80%</p>
-                                        <div class="progress">
-                                            <span class="html"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">css</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">95%</p>
-                                        <div class="progress">
-                                            <span class="css"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">javascript</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">75%</p>
-                                        <div class="progress">
-                                            <span class="js"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">Bootstrap</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">75%</p>
-                                        <div class="progress">
-                                            <span class="js"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">ReactJS</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">75%</p>
-                                        <div class="progress">
-                                            <span class="react"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">NodeJS</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">60%</p>
-                                        <div class="progress">
-                                            <span class="node"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">Redux</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">65%</p>
-                                        <div class="progress">
-                                            <span class="python"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">MongoDb</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">65%</p>
-                                        <div class="progress">
-                                            <span class="python"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">JQuery</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">65%</p>
-                                        <div class="progress">
-                                            <span class="python"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">ExpressJS</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">65%</p>
-                                        <div class="progress">
-                                            <span class="python"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">Material UI</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">65%</p>
-                                        <div class="progress">
-                                            <span class="python"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">API INTEGRATION</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">80%</p>
-                                        <div class="progress">
-                                            <span class="python"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">Git Hub</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">65%</p>
-                                        <div class="progress">
-                                            <span class="python"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">Cross-Plateform Development</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">65%</p>
-                                        <div class="progress">
-                                            <span class="python"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="progress-bar">
-                                    <p class="prog-title">Figma</p>
-                                    <div class="progress-con">
-                                        <p class="prog-text">65%</p>
-                                        <div class="progress">
-                                            <span class="python"></span>
-                                        </div>
+                                <div className="about-item">
+                                    <div className="abt-text">
+                                        <p className="large-text">3+</p>
+                                        <p className="small-text">Individual <br /> Projects</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <h4 class="stat-title">My Timeline</h4>
-                        <div class="timeline">
+                        <div className="about-stats">
+                            <h4 className="stat-title">My Skills</h4>
+                            <div className="progress-bars">
+                                <div className="progress-bar">
+                                    <p className="prog-title">html</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">80%</p>
+                                        <div className="progress">
+                                            <span className="html"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">css</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">95%</p>
+                                        <div className="progress">
+                                            <span className="css"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">javascript</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">75%</p>
+                                        <div className="progress">
+                                            <span className="js"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">Bootstrap</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">75%</p>
+                                        <div className="progress">
+                                            <span className="js"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">ReactJS</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">75%</p>
+                                        <div className="progress">
+                                            <span className="react"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">NodeJS</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">60%</p>
+                                        <div className="progress">
+                                            <span className="node"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">Redux</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">65%</p>
+                                        <div className="progress">
+                                            <span className="python"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">MongoDb</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">65%</p>
+                                        <div className="progress">
+                                            <span className="python"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">JQuery</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">65%</p>
+                                        <div className="progress">
+                                            <span className="python"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">ExpressJS</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">65%</p>
+                                        <div className="progress">
+                                            <span className="python"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">Material UI</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">65%</p>
+                                        <div className="progress">
+                                            <span className="python"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">API INTEGRATION</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">80%</p>
+                                        <div className="progress">
+                                            <span className="python"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">Git Hub</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">65%</p>
+                                        <div className="progress">
+                                            <span className="python"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">Cross-Plateform Development</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">65%</p>
+                                        <div className="progress">
+                                            <span className="python"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="progress-bar">
+                                    <p className="prog-title">Figma</p>
+                                    <div className="progress-con">
+                                        <p className="prog-text">65%</p>
+                                        <div className="progress">
+                                            <span className="python"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 className="stat-title">My Timeline</h4>
+                        <div className="timeline">
                             <div className="timeline-item">
-                                <div class="tl-icon">
-                                    <i class="fas fa-briefcase"></i>
+                                <div className="tl-icon">
+                                    <i className="fas fa-briefcase"></i>
                                 </div>
                                 <p className="tl-duration">Sep 2024 – Dec 2025</p>
                                 <h5>Frontend Developer <span>-Neural IT Pvt Ltd</span></h5>
                                 <p>Enterprise React & Next.js banking applications.</p>
                             </div>
                             <div className="timeline-item">
-                                <div class="tl-icon">
-                                    <i class="fas fa-briefcase"></i>
+                                <div className="tl-icon">
+                                    <i className="fas fa-briefcase"></i>
                                 </div>
                                 <p className="tl-duration">Dec 2023 – Sep 2024</p>
                                 <h5>React JS UI Developer <span>-End Point IT Services</span></h5>
                                 <p>BFSI & HRMS web and mobile applications.</p>
                             </div>
-                            <div class="timeline-item">
-                                <div class="tl-icon">
-                                    <i class="fas fa-briefcase"></i>
+                            <div className="timeline-item">
+                                <div className="tl-icon">
+                                    <i className="fas fa-briefcase"></i>
                                 </div>
-                                <p class="tl-duration">February 2022 - October 2023</p>
+                                <p className="tl-duration">February 2022 - October 2023</p>
                                 <h5>Web Developer<span> - Sublime Technocorp Pvt Ltd.</span></h5>
                                 <p>
                                     Worked on developing responsive and user-friendly web applications using ReactJS and NodeJS.
                                     Collaborated with cross-functional teams to deliver high-quality software solutions.
                                 </p>
                             </div>
-                            <div class="timeline-item">
-                                <div class="tl-icon">
-                                    <i class="fas fa-briefcase"></i>
+                            <div className="timeline-item">
+                                <div className="tl-icon">
+                                    <i className="fas fa-briefcase"></i>
                                 </div>
-                                <p class="tl-duration">February 2022 - May 2022</p>
+                                <p className="tl-duration">February 2022 - May 2022</p>
                                 <h5>Web Development Internship (React.js)<span> - Sublime Technocorp Pvt Ltd.</span></h5>
                                 <p>
                                     web applications using ReactJS

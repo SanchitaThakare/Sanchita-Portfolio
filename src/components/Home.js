@@ -25,16 +25,16 @@ function Home() {
 
     <React.Fragment>
       <div className={`main-content ${lightMode ? 'light-mode' : ''}`}>
-        <header class="container header active" id="home">
-          <div class="header-content">
-            <div class="left-header">
-              <div class="h-shape"></div>
-              <div class="image">
+        <header className="container header active" id="home">
+          <div className="header-content">
+            <div className="left-header">
+              <div className="h-shape"></div>
+              <div className="image">
                 <img src={sanchitaimg} alt="" />
               </div>
             </div>
-            <div class="right-header">
-              <h1 class="name">
+            <div className="right-header">
+              <h1 className="name">
                 Hi, I'm <span>Sanchita Deepak Thakare</span>
               </h1>
               <h2>Frontend Developer | React.js | Next.js | BFSI</h2>
@@ -43,10 +43,10 @@ function Home() {
                 enterprise-grade web & mobile applications using React.js, Next.js
                 and modern JavaScript.
               </p>
-              <div class="btn-con">
-                <a href={downloadpdffile} class="main-btn" download="Sanchita_Thakare.pdf">
-                  <span class="btn-text" >Download CV</span>
-                  <span class="btn-icon" onClick={downloadPDF}><i class="fas fa-download"></i></span>
+              <div className="btn-con">
+                <a href={downloadpdffile} className="main-btn" download="Sanchita_Thakare.pdf">
+                  <span className="btn-text" >Download CV</span>
+                  <span className="btn-icon" onClick={downloadPDF}><i className="fas fa-download"></i></span>
                 </a>
               </div>
             </div>

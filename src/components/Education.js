@@ -3,16 +3,8 @@ import "./../assets/css/media.css";
 import "./../assets/css/styles.css";
 import "./../assets/css/themestyles.css";
 import "./../assets/css/styles.css.map"
-
-
 import Sidebar from './Sidebar';
-// import {theme  } from "./components/theme";
-
-
-
-
 function Education() {
-
   const [activeSection, setActiveSection] = useState('portfolio');
   const [lightMode, setLightMode] = useState(false);
 
@@ -24,9 +16,6 @@ function Education() {
     setLightMode(!lightMode);
     document.body.classList.toggle("light-mode");
   };
-
-
-
 
   return (
 
@@ -44,46 +33,46 @@ function Education() {
 
             {/* Replace the placeholder images with actual image paths */}
 
-            <div class="timeline">
-              <div class="col-12 timeline-item">
-                <div class="tl-icon">
-                  <i class="fas fa-briefcase"></i>
+            <div className="timeline">
+              <div className="col-12 timeline-item">
+                <div className="tl-icon">
+                  <i className="fas fa-briefcase"></i>
                   {/* <FaBriefcase/> */}
                 </div>
-                <p class="tl-duration">2020 - 2022</p>
+                <p className="tl-duration">2020 - 2022</p>
                 <h5>M.Sc (Computer Science)<span> - Mumbai Univercity</span></h5>
                 <p>
                   K.M.C. College Khopoli.
                 </p>
               </div>
-              <div class="col-12 timeline-item">
-                <div class="tl-icon">
-                  <i class="fas fa-briefcase"></i>
+              <div className="col-12 timeline-item">
+                <div className="tl-icon">
+                  <i className="fas fa-briefcase"></i>
                   {/* <FaBriefcase/> */}
                 </div>
-                <p class="tl-duration">2017 - 2020</p>
+                <p className="tl-duration">2017 - 2020</p>
                 <h5> B.Sc (Computer Science)<span> - Mumbai University</span></h5>
                 <p>
                   K.M.C College Khopoli.
                 </p>
               </div>
-              <div class="col-12 timeline-item">
-                <div class="tl-icon">
-                  <i class="fas fa-briefcase"></i>
+              <div className="col-12 timeline-item">
+                <div className="tl-icon">
+                  <i className="fas fa-briefcase"></i>
                   {/* <FaBriefcase/> */}
                 </div>
-                <p class="tl-duration">2013 - 2015</p>
+                <p className="tl-duration">2013 - 2015</p>
                 <h5>H.S.C<span> - Maharashtra State Board</span></h5>
                 <p>
                   N.V.M. Junior College Neral.
                 </p>
               </div>
-              <div class=" col-12 timeline-item">
-                <div class="tl-icon">
-                  <i class="fas fa-briefcase"></i>
+              <div className=" col-12 timeline-item">
+                <div className="tl-icon">
+                  <i className="fas fa-briefcase"></i>
                   {/* <FaBriefcase/> */}
                 </div>
-                <p class="tl-duration">2011 - 2012</p>
+                <p className="tl-duration">2011 - 2012</p>
                 <h5>S.S.C<span> - Maharashtra State Board </span></h5>
                 <p>
                   Neral Vidya Mandir Neral</p><br/><br/>
